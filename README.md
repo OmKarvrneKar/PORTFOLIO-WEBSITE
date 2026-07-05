@@ -1,8 +1,8 @@
-# 🚀 3D Interactive Portfolio Website
+#  3D Interactive Portfolio Website
 
 Welcome to my personal portfolio! This is a state-of-the-art, interactive 3D web application designed to showcase my skills as a Full Stack Developer & AI/ML Engineer, as well as my projects and professional background.
 
-## ✨ Features
+##  Features
 
 - **Immersive 3D Graphics**: Built using **Three.js** and **React Three Fiber** to create stunning, interactive visual experiences directly in the browser.
 - **Smooth Animations**: Powered by **Framer Motion** and **GSAP** for fluid transitions, scroll animations, and dynamic component reveals.
@@ -10,7 +10,7 @@ Welcome to my personal portfolio! This is a state-of-the-art, interactive 3D web
 - **Responsive Design**: Fully responsive layout that adapts beautifully across desktops, tablets, and mobile devices.
 - **Advanced Post-Processing**: Utilizes custom visual effects to achieve a highly polished and professional aesthetic.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - [React 18](https://react.dev/)
 - [Vite](https://vitejs.dev/)
@@ -20,7 +20,7 @@ Welcome to my personal portfolio! This is a state-of-the-art, interactive 3D web
 - [GSAP](https://gsap.com/)
 - [Zustand](https://github.com/pmndrs/zustand) (for state management)
 
-## 🚀 Getting Started
+##  Getting Started
 
 To run this project locally, follow these steps:
 
@@ -43,7 +43,7 @@ To run this project locally, follow these steps:
 
 4. Open your browser and navigate to `http://localhost:5173`.
 
-## 📬 Contact
+##  Contact
 
 - **Name**: Omkar Vernekar
 - **Email**: [omkarvernekar07@gmail.com](mailto:omkarvernekar07@gmail.com)
