@@ -16,6 +16,11 @@ export default defineConfig({
     glsl(),
   ],
   optimizeDeps: {
+    esbuildOptions: {
+      loader: {
+        '.js': 'jsx',
+      },
+    },
     exclude: ['@react-three/fiber', '@react-three/drei'],
   },
   build: {
