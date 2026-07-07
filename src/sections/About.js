@@ -6,19 +6,19 @@ const META = [
   { icon: '📍', label: 'Bangalore, Karnataka' },
   { icon: '🎓', label: 'MVJ College of Engineering' },
   { icon: '💼', label: 'Open to Opportunities' },
-  { icon: '🔒', label: 'Cybersecurity Intern' },
+  { icon: '🤖', label: 'AI/ML & Backend Dev' },
 ];
 
 const EDUCATION = [
   {
-    school: 'MVJ College of Engineering',
-    degree: 'B.E. Computer Science & Engineering',
-    year: '2022 – 2026',
+    school: 'MVJ College of Engineering, Bangalore',
+    degree: 'B.E. Computer Science & Engineering · CGPA 7.89',
+    year: '2024 – Present',
   },
   {
-    school: 'Pre-University College',
-    degree: 'Physics, Chemistry, Mathematics & CS',
-    year: '2020 – 2022',
+    school: 'Maratha Mandal Polytechnic, Belagavi',
+    degree: 'Diploma, Computer Science Engineering · CGPA 9.09',
+    year: '2021 – 2023',
   },
 ];
 
@@ -69,15 +69,15 @@ export function About() {
               <div className="about-text">
                 <h3>Hello, I'm Omkar</h3>
                 <p>
-                  I'm a Computer Science undergraduate at MVJ College of Engineering, Bangalore,
-                  passionate about building things that merge intelligence with usability. I specialize
-                  in full-stack development (MERN) and AI/ML engineering, with hands-on experience
-                  building deep learning-based computer vision systems.
+                  Computer Science undergraduate specializing in AI/ML and full-stack development,
+                  with four independently built and deployed applications spanning healthcare AI,
+                  fintech AI, and document intelligence.
                 </p>
                 <p>
-                  Alongside my development work, I'm gaining practical cybersecurity experience —
-                  understanding how systems can be attacked helps me build them more resilient.
-                  I love turning complex ideas into polished, performant products.
+                  I completed a full-stack development and web security internship (844 hrs) at
+                  Softmusk Info Pvt. Ltd., where I worked across web development, Python full-stack,
+                  and MERN stack with applied security practices in a live company environment.
+                  Seeking an internship in AI/ML or Backend Engineering.
                 </p>
               </div>
             </RevealSection>

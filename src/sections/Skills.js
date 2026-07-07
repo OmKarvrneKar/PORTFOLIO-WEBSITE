@@ -4,34 +4,34 @@ import { SectionHeader } from '../components/SectionHeader';
 
 const SKILL_CATEGORIES = [
   {
-    label: 'Frontend',
+    label: 'Languages',
     icon: '◈',
-    skills: ['React', 'Next.js', 'Three.js / R3F', 'Framer Motion', 'Tailwind CSS', 'HTML5 / CSS3', 'JavaScript ES2024', 'TypeScript'],
+    skills: ['Python', 'Java', 'JavaScript', 'C', 'HTML5', 'CSS3'],
+  },
+  {
+    label: 'Frontend',
+    icon: '⬡',
+    skills: ['React.js', 'Next.js', 'Tailwind CSS', 'Framer Motion', 'TypeScript', 'Vite'],
   },
   {
     label: 'Backend',
-    icon: '⬡',
-    skills: ['Node.js', 'Express.js', 'FastAPI', 'Flask', 'REST APIs', 'WebSocket', 'Python'],
+    icon: '⬢',
+    skills: ['Node.js', 'Express.js', 'FastAPI', 'Flask', 'Django', 'REST APIs'],
   },
   {
     label: 'AI / ML',
-    icon: '⬢',
-    skills: ['PyTorch', 'TensorFlow', 'scikit-learn', 'OpenCV', 'HuggingFace', 'XGBoost', 'Grad-CAM', 'SHAP'],
-  },
-  {
-    label: 'Databases',
     icon: '▣',
-    skills: ['MongoDB', 'PostgreSQL', 'MySQL', 'Redis', 'Mongoose', 'Prisma'],
+    skills: ['TensorFlow', 'scikit-learn', 'OpenCV', 'NumPy', 'Pandas', 'Google Gemini API', 'NLP'],
   },
   {
-    label: 'DevOps & Tools',
+    label: 'Databases & Tools',
     icon: '⬟',
-    skills: ['Git / GitHub', 'Docker', 'Linux', 'Vite', 'Postman', 'Jupyter', 'VS Code'],
+    skills: ['PostgreSQL', 'MySQL', 'SQLite', 'MongoDB', 'Git / GitHub', 'Docker', 'Postman', 'Figma', 'Vercel', 'Render'],
   },
   {
     label: 'Cybersecurity',
     icon: '◉',
-    skills: ['Penetration Testing', 'Burp Suite', 'Nmap', 'Metasploit', 'OWASP Top 10', 'Network Analysis', 'CTF Challenges'],
+    skills: ['Applied Ethical Hacking', 'Web Security', 'OWASP Top 10', 'Burp Suite', 'Nmap', 'JWT Auth'],
   },
 ];
 

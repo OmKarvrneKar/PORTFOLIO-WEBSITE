@@ -17,9 +17,6 @@ export default defineConfig({
   ],
   optimizeDeps: {
     exclude: ['@react-three/fiber', '@react-three/drei'],
-    esbuildOptions: {
-      loader: { '.js': 'jsx' },
-    },
   },
   build: {
     rollupOptions: {

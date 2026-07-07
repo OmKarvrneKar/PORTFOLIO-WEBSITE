@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(npm run:*)",
-      "Bash(taskkill /F /IM node.exe /T)"
+      "Bash(taskkill /F /IM node.exe /T)",
+      "Bash(gh api:*)"
     ]
   }
 }

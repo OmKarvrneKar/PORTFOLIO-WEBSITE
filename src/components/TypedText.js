@@ -7,7 +7,7 @@ import { useState, useEffect, useRef } from 'react';
 const ROLES = [
   'Full Stack Developer',
   'AI/ML Engineer',
-  'Cybersecurity Intern',
+  'Backend Engineer',
   'Problem Solver',
 ];
 

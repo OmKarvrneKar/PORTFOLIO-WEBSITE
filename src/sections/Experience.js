@@ -17,22 +17,13 @@ const CodeIcon = () => (
 
 const EXPERIENCES = [
   {
-    icon: <ShieldIcon />,
-    company: 'Cybersecurity Internship',
-    role: 'Cybersecurity Intern',
-    duration: '2024',
-    description:
-      'Performed vulnerability assessments and penetration testing on web applications in a supervised lab environment. Analyzed network traffic, identified security misconfigurations, and documented findings with remediation recommendations. Worked hands-on with industry-standard tools and developed a deeper understanding of the OWASP Top 10 threat landscape.',
-    tags: ['Penetration Testing', 'Burp Suite', 'Nmap', 'OWASP Top 10', 'Network Analysis', 'Linux', 'Metasploit'],
-  },
-  {
     icon: <CodeIcon />,
-    company: 'MVJ College of Engineering — SDC',
-    role: 'Student Developer & Technical Lead',
-    duration: '2022 – Present',
+    company: 'Softmusk Info Pvt. Ltd.',
+    role: 'Full-Stack Development & Web Security Intern',
+    duration: 'Sep 2022 – Apr 2024',
     description:
-      'Active member and technical lead of the Student Development Club. Built the club\'s full-stack registration and event management system, now handling 500+ student records. Mentor junior students on web development fundamentals and machine learning concepts. Organize workshops and hackathons promoting applied engineering skills.',
-    tags: ['React', 'Node.js', 'MongoDB', 'Leadership', 'Mentoring', 'Event Management'],
+      'Completed three progressive internship terms totalling 844 hours, spanning Web Development, Python full-stack development, and MERN Stack & Web Security. The most recent term (640 hrs) focused on the MERN stack and applied web security practices in a live company project environment.',
+    tags: ['MERN Stack', 'React', 'Node.js', 'Python', 'Web Security', 'REST APIs', 'OWASP Top 10'],
   },
 ];
 

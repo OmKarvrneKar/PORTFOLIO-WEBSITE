@@ -11,34 +11,19 @@ const CertIcon = () => (
 
 const CERTS = [
   {
-    name: 'Google Cybersecurity Certificate',
-    issuer: 'Google / Coursera',
+    name: 'Artificial Intelligence and Machine Learning',
+    issuer: 'CODEXINTERN',
+    year: '2025',
+  },
+  {
+    name: 'Database Management Systems: Fundamentals to Advanced Concepts',
+    issuer: 'Online Certification',
+    year: '2025',
+  },
+  {
+    name: 'Applied Ethical Hacking — Cybersecurity',
+    issuer: 'InfyspringBoard',
     year: '2024',
-  },
-  {
-    name: 'AWS Academy Cloud Foundations',
-    issuer: 'Amazon Web Services',
-    year: '2024',
-  },
-  {
-    name: 'Deep Learning Specialization',
-    issuer: 'DeepLearning.AI / Coursera',
-    year: '2023',
-  },
-  {
-    name: 'The Complete JavaScript Course',
-    issuer: 'Udemy — Jonas Schmedtmann',
-    year: '2023',
-  },
-  {
-    name: 'Python for Data Science & ML Bootcamp',
-    issuer: 'Udemy — Jose Portilla',
-    year: '2023',
-  },
-  {
-    name: 'Cloud Computing — NPTEL',
-    issuer: 'IIT Kharagpur / NPTEL',
-    year: '2023',
   },
 ];
 
