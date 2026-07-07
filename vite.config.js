@@ -4,18 +4,14 @@ import glsl from 'vite-plugin-glsl';
 
 export default defineConfig({
   plugins: [
-    // Transform JSX inside .js files before the React plugin runs
-    {
-      name: 'treat-js-files-as-jsx',
-      enforce: 'pre',
-      async transform(code, id) {
-        if (!id.match(/src\/.*\.js$/) || id.includes('node_modules')) return null;
-        return transformWithEsbuild(code, id, { loader: 'jsx', jsx: 'automatic' });
-      },
-    },
     react(),
     glsl(),
   ],
+  esbuild: {
+    loader: 'jsx',
+    include: /src\/.*\.jsx?$/,
+    exclude: [],
+  },
   optimizeDeps: {
     esbuildOptions: {
       loader: {
