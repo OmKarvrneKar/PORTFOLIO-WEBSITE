@@ -27,8 +27,9 @@ export function useTilt() {
       const rotX  = -(dy / (rect.height / 2)) * MAX_TILT;
 
       card.style.transition = 'transform 0.08s ease-out, box-shadow 0.08s ease-out';
+      card.style.transformStyle = 'preserve-3d';
       card.style.transform  =
-        `perspective(900px) rotateX(${rotX}deg) rotateY(${rotY}deg) translateZ(${LIFT})`;
+        `perspective(1000px) rotateX(${rotX}deg) rotateY(${rotY}deg) translateZ(${LIFT})`;
 
       // Glare overlay
       const g = glare.current;
@@ -50,6 +51,7 @@ export function useTilt() {
     const card = ref.current;
     if (!card) return;
     card.style.transition = 'transform 0.5s cubic-bezier(0.22,1,0.36,1), box-shadow 0.5s cubic-bezier(0.22,1,0.36,1)';
+    card.style.transformStyle = '';
     card.style.transform  = '';
     const g = glare.current;
     if (g) g.style.opacity = '0';

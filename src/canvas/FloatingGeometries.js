@@ -46,9 +46,13 @@ function WireGeom({ config, index }) {
   const scrollProgress = useStore((s) => s.scrollProgress);
 
   const geo = useMemo(() => makeGeo(config.type, config.args), [config]);
-  const mat = useMemo(() => new THREE.MeshBasicMaterial({
+  const mat = useMemo(() => new THREE.MeshPhysicalMaterial({
     color: 0x00d4ff,
-    wireframe: true,
+    metalness: 0.1,
+    roughness: 0.2,
+    transmission: 0.9, // glass-like
+    ior: 1.5,
+    thickness: 0.5,
     transparent: true,
     opacity: config.opacity,
   }), [config.opacity]);

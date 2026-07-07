@@ -6,6 +6,7 @@
  */
 import { useRef } from 'react';
 import { useFrame } from '@react-three/fiber';
+import { Environment } from '@react-three/drei';
 import * as THREE from 'three';
 
 export function SceneEnvironment() {
@@ -20,6 +21,9 @@ export function SceneEnvironment() {
 
   return (
     <>
+      {/* Realistic reflections */}
+      <Environment preset="city" />
+
       {/* Soft sky/ground */}
       <hemisphereLight
         skyColor={new THREE.Color('#001840')}

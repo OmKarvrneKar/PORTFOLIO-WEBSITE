@@ -78,6 +78,19 @@ body {
   border-color: var(--border-hover);
 }
 
+.glass-card > * {
+  transform: translateZ(0);
+  transition: transform 0.3s ease-out;
+}
+
+.glass-card:hover > * {
+  transform: translateZ(32px);
+}
+
+.glass-card:hover > [aria-hidden="true"] {
+  transform: translateZ(0);
+}
+
 /* ===== TYPOGRAPHY ===== */
 .section-tag {
   display: block;

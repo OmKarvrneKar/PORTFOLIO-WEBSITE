@@ -61,15 +61,15 @@ export function CameraRig() {
     const speed = 1 - Math.pow(0.02, delta); // frame-rate independent smooth
 
     // Mouse parallax
-    cx.current  = lerp(cx.current,  mouse.x * 1.4,  speed * 0.6);
-    cy.current  = lerp(cy.current, -mouse.y * 0.8,  speed * 0.6);
-    cry.current = lerp(cry.current,  mouse.x * 0.03, speed * 0.3);
-    crx.current = lerp(crx.current, -mouse.y * 0.02, speed * 0.3);
+    cx.current  = lerp(cx.current,  mouse.x * 2.5,  speed * 0.6);
+    cy.current  = lerp(cy.current, -mouse.y * 1.5,  speed * 0.6);
+    cry.current = lerp(cry.current,  mouse.x * 0.05, speed * 0.3);
+    crx.current = lerp(crx.current, -mouse.y * 0.04, speed * 0.3);
 
     // Scroll-driven drift
     const kf = sampleKeyframes(scrollProgress);
     cz.current  = lerp(cz.current,  kf.z,          speed * 0.25);
-    camY.current = lerp(camY.current, kf.y * -0.4, speed * 0.25);
+    camY.current = lerp(camY.current, kf.y * -0.6, speed * 0.25);
 
     camera.position.set(cx.current, cy.current + camY.current, cz.current);
     camera.rotation.y = cry.current;

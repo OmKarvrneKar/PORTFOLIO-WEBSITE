@@ -9,7 +9,7 @@ export default defineConfig({
       enforce: 'pre',
       async transform(code, id) {
         if (!id.match(/src\/.*\.js$/) || id.includes('node_modules')) return null;
-        return transformWithEsbuild(code, id, { loader: 'jsx' });
+        return transformWithEsbuild(code, id, { loader: 'jsx', jsx: 'automatic' });
       },
     },
     react(),

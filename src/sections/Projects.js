@@ -119,34 +119,6 @@ const PROJECTS = [
     github: 'https://github.com/OmKarvrneKar/Deep-fake-detection',
     live: null,
   },
-  {
-    priority: false,
-    icon: <OpenSourceIcon />,
-    badge: 'ML / Open Source',
-    title: 'OpenSource Companion',
-    bullets: [
-      'Recommends GitHub issues to beginners matched to their skill level via an ML ranking engine',
-      'Python ML backend + TypeScript frontend; fully containerised with Docker Compose',
-      'CI/CD via GitHub Actions; automated data pipeline ingests and scores open issues across repos',
-    ],
-    tech: ['Python', 'TypeScript', 'ML', 'Docker', 'GitHub Actions'],
-    github: 'https://github.com/OmKarvrneKar/OpenSource_Companion',
-    live: null,
-  },
-  {
-    priority: false,
-    icon: <CalendarIcon />,
-    badge: 'Full Stack',
-    title: 'SDC Register System',
-    bullets: [
-      'MERN + TypeScript portal for MVJ College SDC — member registration, event management & status tracking',
-      'JWT authentication, Material-UI admin dashboard, role-based PATCH approval workflows',
-      'MongoDB + Mongoose ORM; Axios-powered React frontend with full form validation',
-    ],
-    tech: ['React', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'JWT', 'Material-UI'],
-    github: 'https://github.com/OmKarvrneKar/SDC_register',
-    live: null,
-  },
 ];
 
 /* ── Component ────────────────────────────────────────── */

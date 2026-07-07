@@ -19,8 +19,8 @@ export function Hero() {
 
         <RevealSection delay={0.3}>
           <p className="hero-tagline">
-            CS undergraduate building intelligent systems at the intersection of AI,
-            full-stack development, and cybersecurity — from Bangalore, India.
+            CS undergraduate specializing in AI/ML and full-stack development,
+            building and deploying intelligent applications — from Bangalore, India.
           </p>
         </RevealSection>
 
