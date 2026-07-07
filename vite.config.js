@@ -1,24 +1,26 @@
 import { defineConfig, transformWithEsbuild } from 'vite';
-import react from '@vitejs/plugin-react';
+import react from '@vitejs/plugin-react-swc';
 import glsl from 'vite-plugin-glsl';
 
 export default defineConfig({
   plugins: [
+    {
+      name: 'treat-js-files-as-jsx',
+      enforce: 'pre',
+      async transform(code, id) {
+        if (!id.match(/src\/.*\.js$/) || id.includes('node_modules')) return null;
+        return transformWithEsbuild(code, id, { loader: 'jsx' });
+      },
+    },
     react(),
     glsl(),
   ],
-  esbuild: {
-    loader: 'jsx',
-    include: /src\/.*\.jsx?$/,
-    exclude: [],
-  },
   optimizeDeps: {
     esbuildOptions: {
       loader: {
         '.js': 'jsx',
       },
     },
-    exclude: ['@react-three/fiber', '@react-three/drei'],
   },
   build: {
     rollupOptions: {
