@@ -11,11 +11,6 @@ const CertIcon = () => (
 
 const CERTS = [
   {
-    name: 'Artificial Intelligence and Machine Learning',
-    issuer: 'CODEXINTERN',
-    year: '2025',
-  },
-  {
     name: 'Database Management Systems: Fundamentals to Advanced Concepts',
     issuer: 'Online Certification',
     year: '2025',

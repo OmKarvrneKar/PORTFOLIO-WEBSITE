@@ -9,14 +9,9 @@ const SKILL_CATEGORIES = [
     skills: ['Python', 'Java', 'JavaScript', 'C', 'HTML5', 'CSS3'],
   },
   {
-    label: 'Frontend',
+    label: 'Frameworks & Libraries',
     icon: '⬡',
-    skills: ['React.js', 'Next.js', 'Tailwind CSS', 'Framer Motion', 'TypeScript', 'Vite'],
-  },
-  {
-    label: 'Backend',
-    icon: '⬢',
-    skills: ['Node.js', 'Express.js', 'FastAPI', 'Flask', 'Django', 'REST APIs'],
+    skills: ['React.js', 'FastAPI', 'Flask', 'Django', 'Node.js', 'Tailwind CSS', 'Vite'],
   },
   {
     label: 'AI / ML',
@@ -24,14 +19,14 @@ const SKILL_CATEGORIES = [
     skills: ['TensorFlow', 'scikit-learn', 'OpenCV', 'NumPy', 'Pandas', 'Google Gemini API', 'NLP'],
   },
   {
-    label: 'Databases & Tools',
-    icon: '⬟',
-    skills: ['PostgreSQL', 'MySQL', 'SQLite', 'MongoDB', 'Git / GitHub', 'Docker', 'Postman', 'Figma', 'Vercel', 'Render'],
+    label: 'Databases',
+    icon: '⬢',
+    skills: ['PostgreSQL', 'MySQL', 'SQLite'],
   },
   {
-    label: 'Cybersecurity',
-    icon: '◉',
-    skills: ['Applied Ethical Hacking', 'Web Security', 'OWASP Top 10', 'Burp Suite', 'Nmap', 'JWT Auth'],
+    label: 'Tools & Platforms',
+    icon: '⬟',
+    skills: ['Git', 'GitHub', 'Postman', 'Figma', 'Vercel', 'Render', 'JWT Authentication'],
   },
 ];
 

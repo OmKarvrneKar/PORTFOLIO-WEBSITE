@@ -23,7 +23,16 @@ const EXPERIENCES = [
     duration: 'Sep 2022 – Apr 2024',
     description:
       'Completed three progressive internship terms totalling 844 hours, spanning Web Development, Python full-stack development, and MERN Stack & Web Security. The most recent term (640 hrs) focused on the MERN stack and applied web security practices in a live company project environment.',
-    tags: ['MERN Stack', 'React', 'Node.js', 'Python', 'Web Security', 'REST APIs', 'OWASP Top 10'],
+    tags: ['MERN Stack', 'React', 'Node.js', 'Python', 'Web Security'],
+  },
+  {
+    icon: <ShieldIcon />,
+    company: 'CODEXINTERN',
+    role: 'AI/ML Virtual Internship',
+    duration: 'Sep – Oct 2025',
+    description:
+      'Completed a 1-month virtual internship program focused on Artificial Intelligence and Machine Learning fundamentals and applications.',
+    tags: ['Artificial Intelligence', 'Machine Learning'],
   },
 ];
 
