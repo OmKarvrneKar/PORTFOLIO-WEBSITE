@@ -20,28 +20,8 @@ Welcome to my personal portfolio! This is a state-of-the-art, interactive 3D web
 - [GSAP](https://gsap.com/)
 - [Zustand](https://github.com/pmndrs/zustand) (for state management)
 
-##  Getting Started
 
-To run this project locally, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/OmKarvrneKar/PORTFOLIO-WEBSITE.git
-   cd PORTFOLIO-WEBSITE
-   ```
-
-2. **Install dependencies:**
-   *(Note: Due to a peer dependency with Three.js and Postprocessing, you may need to use the `--legacy-peer-deps` flag)*
-   ```bash
-   npm install --legacy-peer-deps
-   ```
-
-3. **Start the development server:**
-   ```bash
-   npm run dev
-   ```
-
-4. Open your browser and navigate to `http://localhost:5173` (or the port specified in your terminal).
+ Open your browser and navigate to `http://localhost:5173` (or the port specified in your terminal).
 
 ### Troubleshooting
 
