@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react-swc';
 import glsl from 'vite-plugin-glsl';
 
 export default defineConfig({
+  base: '/PORTFOLIO-WEBSITE/',
   plugins: [
     {
       name: 'treat-js-files-as-jsx',
