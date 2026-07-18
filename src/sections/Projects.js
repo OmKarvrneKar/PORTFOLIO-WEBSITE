@@ -64,20 +64,6 @@ const PROJECTS = [
   {
     priority: true,
     icon: <FinanceIcon />,
-    badge: 'Microservices / Crypto',
-    title: 'RippleAlert',
-    bullets: [
-      'Real-time crypto price monitoring platform built as a distributed system of 5 independently-running services',
-      'Communicates via Redis Pub/Sub message broker rather than direct calls, ensuring high availability and fault tolerance',
-      'Features live WebSocket price streaming, threshold and rolling time-window alert rules, and persistent alert history',
-    ],
-    tech: ['Python', 'FastAPI', 'Redis', 'PostgreSQL', 'WebSockets', 'Docker'],
-    github: 'https://github.com/OmKarvrneKar/RippleAlert',
-    live: '#',
-  },
-  {
-    priority: true,
-    icon: <FinanceIcon />,
     badge: 'AI Agent / FinTech',
     title: 'AI Finance Agent',
     bullets: [
@@ -132,6 +118,20 @@ const PROJECTS = [
     tech: ['Python', 'OpenCV', 'Flask', 'ffmpeg'],
     github: 'https://github.com/OmKarvrneKar/Deep-fake-detection',
     live: null,
+  },
+  {
+    priority: true,
+    icon: <FinanceIcon />,
+    badge: 'Microservices / Crypto',
+    title: 'RippleAlert',
+    bullets: [
+      'Real-time crypto price monitoring platform built as a distributed system of 5 independently-running services',
+      'Communicates via Redis Pub/Sub message broker rather than direct calls, ensuring high availability and fault tolerance',
+      'Features live WebSocket price streaming, threshold and rolling time-window alert rules, and persistent alert history',
+    ],
+    tech: ['Python', 'FastAPI', 'Redis', 'PostgreSQL', 'WebSockets', 'Docker'],
+    github: 'https://github.com/OmKarvrneKar/RippleAlert',
+    live: '#',
   },
 ];
 
