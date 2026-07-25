@@ -1,4 +1,4 @@
-#  3D Interactive Portfolio Website
+# Portfolio Website
 
 Welcome to my personal portfolio! This is a state-of-the-art, interactive 3D web application designed to showcase my skills as a Full Stack Developer & AI/ML Engineer, as well as my projects and professional background.
 
