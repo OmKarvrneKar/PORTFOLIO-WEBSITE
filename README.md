@@ -22,10 +22,12 @@ Welcome to my personal portfolio! This is a state-of-the-art, interactive 3D web
 
 
  Open your browser and navigate to `http://localhost:5173` (or the port specified in your terminal).
+ 
 
 ### Troubleshooting
 
 - **React Fast Refresh not working?** The project is configured to parse JSX within `.js` files using Vite's esbuild options. If you encounter `RefreshRuntime` errors, ensure that your `vite.config.js` correctly includes `.js` files in the React plugin configuration and you have cleared your `node_modules/.vite` cache.
+- 
 
 ##  Contact
 
