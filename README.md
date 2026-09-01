@@ -8,7 +8,7 @@ Welcome to my personal portfolio! This is a state-of-the-art, interactive 3D web
 - **Smooth Animations**: Powered by **Framer Motion** and **GSAP** for fluid transitions, scroll animations, and dynamic component reveals.
 - **Modern Tech Stack**: Developed with **React** and bundled using **Vite** for lightning-fast performance and an optimized developer experience.
 - **Responsive Design**: Fully responsive layout that adapts beautifully across desktops, tablets, and mobile devices.
-- **Advanced Post-Processing**: Utilizes custom visual effects to achieve a highly polished and professional aesthetic..
+- **Advanced Post-Processing**: Utilizes custom visual effects to achieve a highly polished and professional aesthetic
 
 ##  Technologies Used
 
